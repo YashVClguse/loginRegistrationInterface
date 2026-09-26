@@ -1,0 +1,54 @@
+<!-- <html>
+<title>Login and Registration</title>
+<body>
+    <style>
+        .box{
+            width: 300px;
+            height: 200px;
+            background: lightblue;
+        }
+        .subdiv{width: 250px;height: 100px;background: lightcyan;}
+    </style>
+    <div class="box">
+        <h1>Student Details</h1>
+        <div class="subdiv">
+            <p>Name:AAKASH</p>
+            <p>AGe:28</p>
+        </div>
+    </div>
+    <div class="container" style="background:green ;">
+        <h1>this is h1</h1>
+    </div>
+</body>
+</html> -->
+
+
+<html>
+<style>
+    *{box-sizing: border-box; font-family:Arial;}
+    body{margin: 0;height: 100vh;display: flex;justify-content: center;align-items: center;background: linear-gradient(135deg,#6a11cb,#2575fc);}
+    .container{width: 350px;padding: 30px;background: white;border-radius: 15px;
+        box-shadow: 0 10px 30px #0004;}
+        h2{text-align: center;color: #333;}
+        input{width: 100%;padding: 12px;margin: 8px 0;border: 1px solid #ddd;
+            border-radius: 8px;outline: none;}
+            input:focus{border-color: #6a11cb;}
+            button{width: 100%;padding: 12px;margin-top: 15px;border: none;
+                border-radius: 8px;background: #6a11cb;color: white;font-size: 16px;
+                cursor: pointer;}
+                button:hover{background: #2575fc;}
+                p{text-align: center;color: #666;}
+                a{color: #6a11cb;text-decoration: none;font-weight: bold;}
+</style>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form>
+            <input type="email" placeholder="enter your email" required><br>
+            <input type="password" placeholder="enter your password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p>Dont't Have account?<a href="#">Register</p>
+    </div>
+</body>
+</html>
